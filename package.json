@@ -1,0 +1,30 @@
+{
+  "name": "addons-ts-lab-reactBasics-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "mocha -r ts-node/register src/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HandyAndyOG/addons-ts-lab-reactBasics-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HandyAndyOG/addons-ts-lab-reactBasics-main/issues"
+  },
+  "homepage": "https://github.com/HandyAndyOG/addons-ts-lab-reactBasics-main#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.18",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
