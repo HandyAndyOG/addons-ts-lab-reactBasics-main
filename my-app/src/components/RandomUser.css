@@ -1,0 +1,41 @@
+.section--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 60vw;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: rgb(225, 241, 255);
+}
+.button {
+    border: 0.5px solid rgb(55, 55, 55);
+    width: 15vw;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: 300ms;
+}
+
+.button:hover {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    border: 0.5px solid white;
+    transition: 300ms;
+}
+.profile_p {
+    padding: 0.5rem
+}
+.profile_h3 {
+    padding: 0.5rem
+}
+.profile_h2 {
+    margin-top: 1rem;
+    padding: 0.5rem
+}
+.profile_img {
+    border-radius: 5px;
+}
